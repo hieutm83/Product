@@ -5,6 +5,7 @@ import clsx from "clsx";
 type Props = {
   buttonLink: LinkField;
   className?: string;
+  children: React.ReactNode; // ← thêm dòng này
 };
 
 export default function Button({ buttonLink, className }: Props) {
